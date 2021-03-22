@@ -45,7 +45,7 @@ public class MineSweeperGameObjects
         }        
     }
     
-    public int getNumberOfMines(int x, int y){
+    public int getNumberOfMinesNearPosition(int x, int y){
         int numberOfMines = 0;
         for (int i = 0; i < myArraySize; i++) {
                 for (int j = 0; j < myArraySize; j++) { 
